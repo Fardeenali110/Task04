@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Array Tasks</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>JavaScript Array Tasks</h1>
+
+    <section>
+      <h2> Fruit List</h2>
+      <button onclick="showFruits()">Show Fruits</button>
+      <ul id="fruitlist"></ul>
+    </section>
+
+    <section>
+      <h2> Fruits Starting with "A"</h2>
+      <button onclick="findA()">Find Fruits</button>
+      <p id="results"></p>
+    </section>
+
+    <section>
+      <h2> Find Largest Number</h2>
+      <button onclick="findLargest()">Find Largest</button>
+      <p id="largestResult"></p>
+    </section>
+
+    <section>
+      <h2> Names Longer Than 5 Letters</h2>
+      <button onclick="showLongNames()">Show Names</button>
+      <p id="longNamesResult"></p>
+    </section>
+
+    <section>
+      <h2>Search Name CaseInsensitive</h2>
+      <input type="text" id="searchName" placeholder="Enter name to search" />
+      <button onclick="searchName()">Search</button>
+      <p id="searchResult"></p>
+    </section>
+  </div>
+</body>
+</html>
